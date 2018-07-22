@@ -1,0 +1,6 @@
+---
+final_name: bbr-boshrelease
+blobstore:
+  provider: s3
+  options:
+    bucket_name: orange-dfy-bbr-boshrelease
