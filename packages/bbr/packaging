@@ -2,5 +2,6 @@
 set -e
 
 tar xvf bbr-1.2.4/bbr-1.2.4.tar
-cp -r releases/bbr ${BOSH_INSTALL_TARGET}/bin
+mkdir -p ${BOSH_INSTALL_TARGET}/bin/
+cp -r releases/bbr ${BOSH_INSTALL_TARGET}/bin/bbr
 

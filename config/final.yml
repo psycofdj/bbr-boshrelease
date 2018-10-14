@@ -1,5 +1,5 @@
 ---
-final_name: bbr-boshrelease
+final_name: bbr
 blobstore:
   provider: s3
   options:
